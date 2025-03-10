@@ -13,7 +13,7 @@ import 'package:crypto_dart/src/crypto_dart.dart';
 import 'package:crypto_dart/src/mode.dart';
 
 class AES extends block_cipher.BlockCipher {
-  static const _KEY_SIZE = 24; // 256 bits
+  static const _KEY_SIZE = 32; // 256 bits
   static const _IV_SIZE = 16; // 128 bits
   static const _SALT_SIZE = 8; // 64
   static const _KDF_DIGEST = 'MD5';
